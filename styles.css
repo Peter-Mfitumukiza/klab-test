@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, div.main__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.empty__left, div.empty__right{
+    width: 50%;
+    height: 100vh;
+    background-color: #4C6FFF;
+}
+div.empty__right{
+    background-color: #E5EBF5;
+}
+div.main__container{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+div.image__container{
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+div.form__container{
+    width: 50%;
+    height: 100%;
+}
